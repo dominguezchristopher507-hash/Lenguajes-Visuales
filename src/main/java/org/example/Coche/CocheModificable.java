@@ -35,7 +35,7 @@ public class CocheModificable extends JFrame {
         addKeyListener(new KeyListener() {
             @Override
             public void keyPressed(KeyEvent e) {
-                if (e.getKeyCode() == KeyEvent.VK_SPACE) {
+                if (e.getKeyCode() == KeyEvent.VK_RIGHT) {
                     // LLAMADA AL MÉTODO ENCAPSULADO (Evento de Teclado)
                     miCoche.avanzarConEfecto(panelJuego.getWidth());
                 }
